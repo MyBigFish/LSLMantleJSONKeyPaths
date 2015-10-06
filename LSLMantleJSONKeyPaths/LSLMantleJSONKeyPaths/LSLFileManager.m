@@ -113,7 +113,7 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
         
         //计算空格个数
         NSInteger count = maxLen - propertyName.length;
-        NSMutableString *firstPropertyName = [propertyName mutableCopy];
+        NSMutableString *firstPropertyName = [NSMutableString stringWithFormat:@"@\"%@\"",propertyName];
         if (count > 0) {
             
             for (int j = 0; j < count; j++) {
@@ -122,8 +122,10 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
             
         }
         
+        [firstPropertyName appendString:@": "];
+        
         NSString *comma = i == (array.count - 1) ? @"\n" : @",\n";
-        NSString *value = [NSString stringWithFormat:@"         @\"%@\" : @\"%@\"%@",firstPropertyName,propertyName,comma];
+        NSString *value = [NSString stringWithFormat:@"         %@@\"%@\"%@",firstPropertyName,propertyName,comma];
         [str appendString:value];
     }
     
