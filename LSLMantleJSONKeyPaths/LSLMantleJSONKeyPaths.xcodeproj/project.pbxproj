@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		746CC6C11BC43E370065398C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 746CC6BE1BC43E370065398C /* 1.png */; };
+		746CC6C21BC43E370065398C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 746CC6BF1BC43E370065398C /* 2.png */; };
+		746CC6C31BC43E370065398C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 746CC6C01BC43E370065398C /* 3.png */; };
 		74A6CB521BC41BBE0049976E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6CB511BC41BBE0049976E /* AppKit.framework */; };
 		74A6CB541BC41BBE0049976E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6CB531BC41BBE0049976E /* Foundation.framework */; };
 		74A6CB591BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CB581BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		746CC6BE1BC43E370065398C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		746CC6BF1BC43E370065398C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		746CC6C01BC43E370065398C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		74A6CB4E1BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLMantleJSONKeyPaths.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A6CB511BC41BBE0049976E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		74A6CB531BC41BBE0049976E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -67,6 +73,9 @@
 		74A6CB451BC41BBE0049976E = {
 			isa = PBXGroup;
 			children = (
+				746CC6BE1BC43E370065398C /* 1.png */,
+				746CC6BF1BC43E370065398C /* 2.png */,
+				746CC6C01BC43E370065398C /* 3.png */,
 				74A6CB551BC41BBE0049976E /* LSLMantleJSONKeyPaths */,
 				74A6CB501BC41BBE0049976E /* Frameworks */,
 				74A6CB4F1BC41BBE0049976E /* Products */,
@@ -184,7 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746CC6C21BC43E370065398C /* 2.png in Resources */,
 				74A6CB591BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme in Resources */,
+				746CC6C11BC43E370065398C /* 1.png in Resources */,
+				746CC6C31BC43E370065398C /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +341,7 @@
 				74A6CB641BC41BBE0049976E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
