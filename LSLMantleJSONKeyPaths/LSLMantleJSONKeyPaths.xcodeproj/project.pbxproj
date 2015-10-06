@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74A6CB521BC41BBE0049976E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6CB511BC41BBE0049976E /* AppKit.framework */; };
+		74A6CB541BC41BBE0049976E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6CB531BC41BBE0049976E /* Foundation.framework */; };
+		74A6CB591BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CB581BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme */; };
+		74A6CB5C1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB5B1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m */; };
+		74A6CB5F1BC41BBE0049976E /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB5E1BC41BBE0049976E /* NSObject_Extension.m */; };
+		74A6CB681BC41F1A0049976E /* LSLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB671BC41F1A0049976E /* LSLFileManager.m */; };
+		74A6CB6B1BC41F8D0049976E /* FileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB6A1BC41F8D0049976E /* FileModel.m */; };
+		74A6CB6E1BC41FDF0049976E /* DocumentNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB6D1BC41FDF0049976E /* DocumentNavigator.m */; };
+		74A6CB711BC420060049976E /* FileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB701BC420060049976E /* FileProvider.m */; };
+		74A6CB741BC420300049976E /* BaseFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB731BC420300049976E /* BaseFileModel.m */; };
+		74A6CB771BC424400049976E /* GroupFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB761BC424400049976E /* GroupFileModel.m */; };
+		74A6CB7A1BC424650049976E /* FileCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB791BC424650049976E /* FileCollection.m */; };
+		74A6CB7D1BC424790049976E /* VariantGroupFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB7C1BC424790049976E /* VariantGroupFileModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74A6CB4E1BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLMantleJSONKeyPaths.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A6CB511BC41BBE0049976E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		74A6CB531BC41BBE0049976E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		74A6CB571BC41BBE0049976E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A6CB581BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LSLMantleJSONKeyPaths.xcscheme; path = LSLMantleJSONKeyPaths.xcodeproj/xcshareddata/xcschemes/LSLMantleJSONKeyPaths.xcscheme; sourceTree = SOURCE_ROOT; };
+		74A6CB5A1BC41BBE0049976E /* LSLMantleJSONKeyPaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLMantleJSONKeyPaths.h; sourceTree = "<group>"; };
+		74A6CB5B1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLMantleJSONKeyPaths.m; sourceTree = "<group>"; };
+		74A6CB5D1BC41BBE0049976E /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		74A6CB5E1BC41BBE0049976E /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		74A6CB651BC41E930049976E /* XCodePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodePrivate.h; sourceTree = "<group>"; };
+		74A6CB661BC41F1A0049976E /* LSLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLFileManager.h; sourceTree = "<group>"; };
+		74A6CB671BC41F1A0049976E /* LSLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLFileManager.m; sourceTree = "<group>"; };
+		74A6CB691BC41F8D0049976E /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
+		74A6CB6A1BC41F8D0049976E /* FileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileModel.m; sourceTree = "<group>"; };
+		74A6CB6C1BC41FDF0049976E /* DocumentNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentNavigator.h; sourceTree = "<group>"; };
+		74A6CB6D1BC41FDF0049976E /* DocumentNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentNavigator.m; sourceTree = "<group>"; };
+		74A6CB6F1BC420060049976E /* FileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileProvider.h; sourceTree = "<group>"; };
+		74A6CB701BC420060049976E /* FileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileProvider.m; sourceTree = "<group>"; };
+		74A6CB721BC420300049976E /* BaseFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFileModel.h; sourceTree = "<group>"; };
+		74A6CB731BC420300049976E /* BaseFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFileModel.m; sourceTree = "<group>"; };
+		74A6CB751BC424400049976E /* GroupFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupFileModel.h; sourceTree = "<group>"; };
+		74A6CB761BC424400049976E /* GroupFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupFileModel.m; sourceTree = "<group>"; };
+		74A6CB781BC424650049976E /* FileCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCollection.h; sourceTree = "<group>"; };
+		74A6CB791BC424650049976E /* FileCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCollection.m; sourceTree = "<group>"; };
+		74A6CB7B1BC424790049976E /* VariantGroupFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantGroupFileModel.h; sourceTree = "<group>"; };
+		74A6CB7C1BC424790049976E /* VariantGroupFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariantGroupFileModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A6CB4C1BC41BBE0049976E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A6CB521BC41BBE0049976E /* AppKit.framework in Frameworks */,
+				74A6CB541BC41BBE0049976E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74A6CB451BC41BBE0049976E = {
+			isa = PBXGroup;
+			children = (
+				74A6CB551BC41BBE0049976E /* LSLMantleJSONKeyPaths */,
+				74A6CB501BC41BBE0049976E /* Frameworks */,
+				74A6CB4F1BC41BBE0049976E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74A6CB4F1BC41BBE0049976E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CB4E1BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A6CB501BC41BBE0049976E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CB511BC41BBE0049976E /* AppKit.framework */,
+				74A6CB531BC41BBE0049976E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74A6CB551BC41BBE0049976E /* LSLMantleJSONKeyPaths */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CB5A1BC41BBE0049976E /* LSLMantleJSONKeyPaths.h */,
+				74A6CB5B1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m */,
+				74A6CB5D1BC41BBE0049976E /* NSObject_Extension.h */,
+				74A6CB5E1BC41BBE0049976E /* NSObject_Extension.m */,
+				74A6CB661BC41F1A0049976E /* LSLFileManager.h */,
+				74A6CB671BC41F1A0049976E /* LSLFileManager.m */,
+				74A6CB721BC420300049976E /* BaseFileModel.h */,
+				74A6CB731BC420300049976E /* BaseFileModel.m */,
+				74A6CB691BC41F8D0049976E /* FileModel.h */,
+				74A6CB6A1BC41F8D0049976E /* FileModel.m */,
+				74A6CB751BC424400049976E /* GroupFileModel.h */,
+				74A6CB761BC424400049976E /* GroupFileModel.m */,
+				74A6CB6F1BC420060049976E /* FileProvider.h */,
+				74A6CB701BC420060049976E /* FileProvider.m */,
+				74A6CB781BC424650049976E /* FileCollection.h */,
+				74A6CB791BC424650049976E /* FileCollection.m */,
+				74A6CB7B1BC424790049976E /* VariantGroupFileModel.h */,
+				74A6CB7C1BC424790049976E /* VariantGroupFileModel.m */,
+				74A6CB6C1BC41FDF0049976E /* DocumentNavigator.h */,
+				74A6CB6D1BC41FDF0049976E /* DocumentNavigator.m */,
+				74A6CB651BC41E930049976E /* XCodePrivate.h */,
+				74A6CB561BC41BBE0049976E /* Supporting Files */,
+			);
+			path = LSLMantleJSONKeyPaths;
+			sourceTree = "<group>";
+		};
+		74A6CB561BC41BBE0049976E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CB571BC41BBE0049976E /* Info.plist */,
+				74A6CB581BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74A6CB4D1BC41BBE0049976E /* LSLMantleJSONKeyPaths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A6CB621BC41BBE0049976E /* Build configuration list for PBXNativeTarget "LSLMantleJSONKeyPaths" */;
+			buildPhases = (
+				74A6CB4A1BC41BBE0049976E /* Sources */,
+				74A6CB4B1BC41BBE0049976E /* Resources */,
+				74A6CB4C1BC41BBE0049976E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSLMantleJSONKeyPaths;
+			productName = LSLMantleJSONKeyPaths;
+			productReference = 74A6CB4E1BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74A6CB461BC41BBE0049976E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = LiuShulong;
+				TargetAttributes = {
+					74A6CB4D1BC41BBE0049976E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 74A6CB491BC41BBE0049976E /* Build configuration list for PBXProject "LSLMantleJSONKeyPaths" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74A6CB451BC41BBE0049976E;
+			productRefGroup = 74A6CB4F1BC41BBE0049976E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A6CB4D1BC41BBE0049976E /* LSLMantleJSONKeyPaths */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74A6CB4B1BC41BBE0049976E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A6CB591BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74A6CB4A1BC41BBE0049976E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A6CB681BC41F1A0049976E /* LSLFileManager.m in Sources */,
+				74A6CB7A1BC424650049976E /* FileCollection.m in Sources */,
+				74A6CB771BC424400049976E /* GroupFileModel.m in Sources */,
+				74A6CB6E1BC41FDF0049976E /* DocumentNavigator.m in Sources */,
+				74A6CB711BC420060049976E /* FileProvider.m in Sources */,
+				74A6CB7D1BC424790049976E /* VariantGroupFileModel.m in Sources */,
+				74A6CB5C1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m in Sources */,
+				74A6CB5F1BC41BBE0049976E /* NSObject_Extension.m in Sources */,
+				74A6CB6B1BC41F8D0049976E /* FileModel.m in Sources */,
+				74A6CB741BC420300049976E /* BaseFileModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74A6CB601BC41BBE0049976E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		74A6CB611BC41BBE0049976E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		74A6CB631BC41BBE0049976E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = LSLMantleJSONKeyPaths/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		74A6CB641BC41BBE0049976E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = LSLMantleJSONKeyPaths/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74A6CB491BC41BBE0049976E /* Build configuration list for PBXProject "LSLMantleJSONKeyPaths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6CB601BC41BBE0049976E /* Debug */,
+				74A6CB611BC41BBE0049976E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A6CB621BC41BBE0049976E /* Build configuration list for PBXNativeTarget "LSLMantleJSONKeyPaths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6CB631BC41BBE0049976E /* Debug */,
+				74A6CB641BC41BBE0049976E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74A6CB461BC41BBE0049976E /* Project object */;
+}
