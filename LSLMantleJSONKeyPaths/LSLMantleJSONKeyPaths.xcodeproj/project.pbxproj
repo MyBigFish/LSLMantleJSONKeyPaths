@@ -10,13 +10,13 @@
 		7427C6231BC4418300FF024D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7427C6221BC4418300FF024D /* 3.png */; };
 		7427C6251BC441B200FF024D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7427C6241BC441B200FF024D /* 2.png */; };
 		7427C6271BC441DE00FF024D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7427C6261BC441DE00FF024D /* 1.png */; };
+		745D83181BC4A2AB00DE5043 /* FileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 745D83171BC4A2AB00DE5043 /* FileModel.m */; };
 		74A6CB521BC41BBE0049976E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6CB511BC41BBE0049976E /* AppKit.framework */; };
 		74A6CB541BC41BBE0049976E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6CB531BC41BBE0049976E /* Foundation.framework */; };
 		74A6CB591BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CB581BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcscheme */; };
 		74A6CB5C1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB5B1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m */; };
 		74A6CB5F1BC41BBE0049976E /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB5E1BC41BBE0049976E /* NSObject_Extension.m */; };
 		74A6CB681BC41F1A0049976E /* LSLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB671BC41F1A0049976E /* LSLFileManager.m */; };
-		74A6CB6B1BC41F8D0049976E /* FileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB6A1BC41F8D0049976E /* FileModel.m */; };
 		74A6CB6E1BC41FDF0049976E /* DocumentNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB6D1BC41FDF0049976E /* DocumentNavigator.m */; };
 		74A6CB711BC420060049976E /* FileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB701BC420060049976E /* FileProvider.m */; };
 		74A6CB741BC420300049976E /* BaseFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CB731BC420300049976E /* BaseFileModel.m */; };
@@ -29,6 +29,8 @@
 		7427C6221BC4418300FF024D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		7427C6241BC441B200FF024D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		7427C6261BC441DE00FF024D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		745D83161BC4A2AB00DE5043 /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
+		745D83171BC4A2AB00DE5043 /* FileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileModel.m; sourceTree = "<group>"; };
 		74A6CB4E1BC41BBE0049976E /* LSLMantleJSONKeyPaths.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLMantleJSONKeyPaths.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A6CB511BC41BBE0049976E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		74A6CB531BC41BBE0049976E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -41,8 +43,6 @@
 		74A6CB651BC41E930049976E /* XCodePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodePrivate.h; sourceTree = "<group>"; };
 		74A6CB661BC41F1A0049976E /* LSLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLFileManager.h; sourceTree = "<group>"; };
 		74A6CB671BC41F1A0049976E /* LSLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLFileManager.m; sourceTree = "<group>"; };
-		74A6CB691BC41F8D0049976E /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
-		74A6CB6A1BC41F8D0049976E /* FileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileModel.m; sourceTree = "<group>"; };
 		74A6CB6C1BC41FDF0049976E /* DocumentNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentNavigator.h; sourceTree = "<group>"; };
 		74A6CB6D1BC41FDF0049976E /* DocumentNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentNavigator.m; sourceTree = "<group>"; };
 		74A6CB6F1BC420060049976E /* FileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileProvider.h; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 				74A6CB671BC41F1A0049976E /* LSLFileManager.m */,
 				74A6CB721BC420300049976E /* BaseFileModel.h */,
 				74A6CB731BC420300049976E /* BaseFileModel.m */,
-				74A6CB691BC41F8D0049976E /* FileModel.h */,
-				74A6CB6A1BC41F8D0049976E /* FileModel.m */,
 				74A6CB751BC424400049976E /* GroupFileModel.h */,
 				74A6CB761BC424400049976E /* GroupFileModel.m */,
+				745D83161BC4A2AB00DE5043 /* FileModel.h */,
+				745D83171BC4A2AB00DE5043 /* FileModel.m */,
 				74A6CB6F1BC420060049976E /* FileProvider.h */,
 				74A6CB701BC420060049976E /* FileProvider.m */,
 				74A6CB781BC424650049976E /* FileCollection.h */,
@@ -208,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A6CB681BC41F1A0049976E /* LSLFileManager.m in Sources */,
+				745D83181BC4A2AB00DE5043 /* FileModel.m in Sources */,
 				74A6CB7A1BC424650049976E /* FileCollection.m in Sources */,
 				74A6CB771BC424400049976E /* GroupFileModel.m in Sources */,
 				74A6CB6E1BC41FDF0049976E /* DocumentNavigator.m in Sources */,
@@ -215,7 +216,6 @@
 				74A6CB7D1BC424790049976E /* VariantGroupFileModel.m in Sources */,
 				74A6CB5C1BC41BBE0049976E /* LSLMantleJSONKeyPaths.m in Sources */,
 				74A6CB5F1BC41BBE0049976E /* NSObject_Extension.m in Sources */,
-				74A6CB6B1BC41F8D0049976E /* FileModel.m in Sources */,
 				74A6CB741BC420300049976E /* BaseFileModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

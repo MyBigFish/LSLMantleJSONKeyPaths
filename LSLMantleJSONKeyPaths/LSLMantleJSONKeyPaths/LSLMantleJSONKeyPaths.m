@@ -73,9 +73,12 @@
 {    
     LSLFileManager *manager = [[LSLFileManager alloc] init];
     manager.currentImplementText = [self selectText];
+    
     NSString *result = [manager generatorJSONKeyPathsByPropertyKeyString];
     [self.currentTextView insertText:result];
 }
+
+
 
 - (void)dealloc
 {

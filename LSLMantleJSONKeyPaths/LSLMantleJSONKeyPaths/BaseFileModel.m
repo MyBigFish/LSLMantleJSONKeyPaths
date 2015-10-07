@@ -24,16 +24,4 @@
     return nil;
 }
 
-+ (NSDictionary *)JSONKeyPathsByPropertyKey {
-    return @{
-         @"name"        : @"name",
-         @"absolutePath": @"absolutePath",
-         @"container"   : @"container",
-         @"isTestFile"  : @"isTestFile",
-         @"isSourceFile": @"isSourceFile",
-         @"isHeaderFile": @"isHeaderFile"
-
-    };
-}
-
 @end

@@ -64,6 +64,7 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
         
         for (NSTextCheckingResult *subResult in properties) {
             
+            
             NSString *subString = [test substringWithRange:subResult.range];
             
             NSRange lastStarRange = [subString rangeOfString:@"*" options:NSBackwardsSearch];
@@ -91,6 +92,11 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
     return nil;
 }
 
+void showAlertWithString(NSString *str) {
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:str];
+    [alert runModal];
+}
 
 - (NSString *)generatorJSONKeyPathsByPropertyKeyString {
         
@@ -139,8 +145,10 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
     
     //获得当前文件头文件的content
     NSString *content = [self getFileContent];
+
     //包含光标的头文件名称
     NSString *interface = getIntefaceNameByContent(self.currentImplementText);
+    
     
     //获得所有propertes
     NSArray *properties = getPropertiesByInterfaceName(interface, content);
@@ -156,8 +164,9 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
     if (doc) {
         DVTFilePath *filePath = doc.filePath;
         NSString *fileName = filePath.fileURL.lastPathComponent;
+
         fileName = [self fileNameByStrippingExtensionAndLastOccuranceOfTest:fileName];
-        
+
         FileModel *headerRef = nil;
         FileModel *sourceRef = nil;
         NSArray *fileReferences = [[[FileProvider alloc] init] fileReferences];
@@ -170,6 +179,8 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
                     
                     NSString *path = reference.absolutePath;
                     NSString *string = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+
+                    
                     return string;
                 }
             }
@@ -186,6 +197,7 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
     
     if (file.length >= 5) {
         NSRange rangeOfOccurrenceOfTest = [file rangeOfString:@"Test" options:NSCaseInsensitiveSearch range:NSMakeRange(file.length - 5, 5)];
+
         NSRange rangeOfOccurrenceOfSpec = [file rangeOfString:@"Spec" options:NSCaseInsensitiveSearch range:NSMakeRange(file.length - 5, 5)];
         if (rangeOfOccurrenceOfTest.location != NSNotFound) {
             strippedFileName = [file substringToIndex:rangeOfOccurrenceOfTest.location];
@@ -194,7 +206,10 @@ NSArray *getPropertiesByInterfaceName(NSString *interfaceName,NSString *content)
         } else {
             strippedFileName = file;
         }
+    } else {
+        strippedFileName = file;
     }
+    
     return strippedFileName;
 }
 
